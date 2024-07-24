@@ -6,7 +6,6 @@ x = st.slider('Mid 1',0,20)
 y=st.slider('Mid 2',0,20)
 q=st.slider('Quiz + OBT',0,5)
 a=st.slider('Assignment',0,5)
-c=st.slider('Credits',0,5)
 st.write(f'Mid Average: {(x+y)/2}')
 cie=(x+y)/2+q+a
 st.write(f'CIE total:{cie}')
